@@ -58,7 +58,6 @@ const SignUp = () => {
                 .required("Confirm Password is required"),
         }),
         onSubmit: async(values) => {
-            // console.log("Form Submitted", values);
             const res = await signUp(values);
             console.log(res);
         },
