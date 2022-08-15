@@ -1,20 +1,15 @@
 // CREATED BY: ANSARI KAMAL
 
-import {
-    AppBar,
-    Typography,
-} from "@mui/material";
+import { Typography, Box } from "@mui/material";
 
-import {style} from './Footer.style' 
+import { style } from "./Footer.style";
 
-const Footer = () => {
-    return (
-        <AppBar position="relative" sx={style.footer}>
-            <Typography variant="subtitle1" align='center'>
-                All Rights Reserved
-            </Typography>
-        </AppBar>
-    )
-}
+const footer = () => {
+	return (
+		<Box sx={style.footer}>
+			<Typography variant="subtitle1">All rights reserved.</Typography>
+		</Box>
+	);
+};
 
-export default Footer
+export default footer;

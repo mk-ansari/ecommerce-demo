@@ -3,15 +3,15 @@
 import { Container } from "@mui/material";
 
 import SeacrhNFilter from "../../components/SeacrhNFilter/SeacrhNFilter";
-import Products from "../../components/Products/Products";
+import ProductsList from "../../components/Products/ProductsList";
 
 const Home = () => {
-  return (
-    <Container sx={{ minHeight: "79vh" }}>
-      <SeacrhNFilter/>
-      <Products />
-    </Container>
-  );
+	return (
+		<Container sx={{ minHeight: "79.3vh" }}>
+			<SeacrhNFilter />
+			<ProductsList />
+		</Container>
+	);
 };
 
 export default Home;
